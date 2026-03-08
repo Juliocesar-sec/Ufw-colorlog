@@ -24,32 +24,35 @@ Basta seguir os três passos abaixo no seu terminal:
 git clone [https://github.com/Juliocesar-sec/ufw-colorlog.git](https://github.com/SEU_USUARIO/ufw-colorlog.git)
 cd ufw-colorlog
 chmod +x setup_firewall.sh
-
+```
 2. Executar o Instalador
 
 O script irá ativar o log full do UFW, instalar o colorizador ccze e configurar o atalho no seu .bashrc.
 Bash
-
+```text
 ./setup_firewall.sh
+```
 
 3. Ativar as alterações
 
 Para que o comando funcione imediatamente no terminal atual, rode:
 Bash
-
+```text
 source ~/.bashrc
+```
 
 🛠️ Como Usar
 
 Após a instalação, você não precisa mais de comandos longos. Basta digitar:
 Bash
-
+```text
 ufw-colorlog
+```
 
 Nota: Como o script lê logs do Kernel (journalctl -k), ele solicitará sua senha de sudo para garantir a segurança dos dados.
 📋 Requisitos do Sistema
 
-    Sistema Operacional: Debian 12+, Ubuntu 22.04+ (ou derivados).
+    Sistema Operacional: Debian, Ubuntu (ou derivados).
 
     Firewall: UFW instalado e habilitado (sudo ufw enable).
 
