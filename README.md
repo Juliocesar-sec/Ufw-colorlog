@@ -21,7 +21,7 @@ Basta seguir os três passos abaixo no seu terminal:
 
 ### 1. Clonar e preparar
 ```bash
-git clone [https://github.com/SEU_USUARIO/ufw-colorlog.git](https://github.com/SEU_USUARIO/ufw-colorlog.git)
+git clone [https://github.com/Juliocesar-sec/ufw-colorlog.git](https://github.com/SEU_USUARIO/ufw-colorlog.git)
 cd ufw-colorlog
 chmod +x setup_firewall.sh
 
